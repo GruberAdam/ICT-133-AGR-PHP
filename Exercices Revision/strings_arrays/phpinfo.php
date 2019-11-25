@@ -7,4 +7,5 @@
 
 //Displays the information of my php files
 phpinfo();
+
 ?>

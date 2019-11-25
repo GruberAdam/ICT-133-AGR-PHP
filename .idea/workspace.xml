@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -43,10 +44,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/PHP/php.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\strings_arrays" />
+      <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -84,7 +92,7 @@
       <workItem from="1574183985996" duration="4091000" />
       <workItem from="1574686940718" duration="333000" />
       <workItem from="1574687284353" duration="292000" />
-      <workItem from="1574687586869" duration="643000" />
+      <workItem from="1574687586869" duration="4695000" />
     </task>
     <servers />
   </component>
