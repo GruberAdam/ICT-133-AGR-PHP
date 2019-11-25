@@ -1,8 +1,8 @@
 <?php
 /*  Autor : Adam Gruber
-    Date : Insert date
+    Date : 25.11.2019
     Version : 1.0 
-    Project : Insert Project Name
+    Project : Tableau avec boucle for
 */
 
 echo '<link href="Table%20css.css" type="text/css" rel="stylesheet">';

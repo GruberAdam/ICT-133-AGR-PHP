@@ -1,8 +1,8 @@
 <?php
 /*  Autor : Adam Gruber
-    Date : Insert date
+    Date : 25.11.2019
     Version : 1.0 
-    Project : Insert Project Name
+    Project : Affiche les informations de PHP
 */
 
 //Displays the information of my php files
