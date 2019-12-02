@@ -43,15 +43,19 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/PHP/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exercices Revision/Logger" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\Logger" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\Ressources" />
       <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\strings_arrays" />
       <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision" />
     </key>
@@ -95,6 +99,9 @@
       <workItem from="1574687586869" duration="6069000" />
       <workItem from="1575013987251" duration="645000" />
       <workItem from="1575272374845" duration="27000" />
+      <workItem from="1575273501558" duration="42000" />
+      <workItem from="1575273555016" duration="1975000" />
+      <workItem from="1575275548927" duration="3206000" />
     </task>
     <servers />
   </component>

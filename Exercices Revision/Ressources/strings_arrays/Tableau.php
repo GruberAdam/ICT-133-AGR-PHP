@@ -5,7 +5,7 @@
     Project : Tableau avec boucle for
 */
 
-echo '<link href="Table%20css.css" type="text/css" rel="stylesheet">';
+echo '<link href="Table css.css" type="text/css" rel="stylesheet">';
 //Creates a table
 echo '<table>';
 echo '<tr>';
