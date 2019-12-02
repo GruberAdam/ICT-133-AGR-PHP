@@ -8,14 +8,16 @@
 echo '<link href="Calendar%20CSS.css" rel="stylesheet" type="text/css">';
 /*Create an array of the days */
 $dayArray = array(
-    'Monday' => 'Mo',
-    'Tuesday' => 'Tu',
-    'Wednesday' => 'We',
-    'Thursday' => 'Th',
-    'Friday' => 'Fr',
-    'Saturday' => 'Sa',
-    'Sunday' => 'Su',
+    'Monday' => 'Lun',
+    'Tuesday' => 'Mar',
+    'Wednesday' => 'Mer',
+    'Thursday' => 'Jeu',
+    'Friday' => 'Ven',
+    'Saturday' => 'Sam',
+    'Sunday' => 'Dim',
 );
+
+$months = array('Janvier','Fevrier','Mars','Avril','Mai','Juin','Juillet','Aout','Septembre','Octobre','Nomvembre','Decembre');
 /*Declare 2 time variables */
 $numberOfTheDay = 0;
 $numberOfTheWeek = 0;
@@ -42,7 +44,8 @@ echo '<ul>';
 echo '<li class="prev">&#10094;</li>';
 echo '<li class="next">&#10095;</li>';
 echo '<li>';
-echo date("F").'<br>';
+echo $months[date("m")-1];
+echo '<br>';
 echo '<span style="font-size:18px">'.date('Y').'</span>';
 echo '</li>';
 echo '</ul>';

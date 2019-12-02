@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,29 +35,27 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
   <component name="ProjectId" id="1U6pXD7vwutxADZaOcfLHUpto6P" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exercices Revision/Logger" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exercices Revision/DemoArray" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\Logger" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\Ressources" />
       <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\strings_arrays" />
       <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\DemoArray" />
+      <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\Logger" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -77,10 +75,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" port="8890">
+  <component name="RunManager" selected="PHP Built-in Web Server.2emeServ">
+    <configuration name="2emeServ" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8090">
       <method v="2" />
     </configuration>
+    <configuration name="WebServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8890">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Built-in Web Server.WebServer" />
+      <item itemvalue="PHP Built-in Web Server.2emeServ" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -102,6 +107,14 @@
       <workItem from="1575273501558" duration="42000" />
       <workItem from="1575273555016" duration="1975000" />
       <workItem from="1575275548927" duration="3206000" />
+      <workItem from="1575291057352" duration="257000" />
+      <workItem from="1575291324863" duration="674000" />
+      <workItem from="1575292016066" duration="1595000" />
+      <workItem from="1575293637448" duration="128000" />
+      <workItem from="1575293777933" duration="47000" />
+      <workItem from="1575293835434" duration="1582000" />
+      <workItem from="1575295436986" duration="2317000" />
+      <workItem from="1575298052750" duration="646000" />
     </task>
     <servers />
   </component>
