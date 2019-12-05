@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="701073af-533d-4a05-9400-967a8f670f29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercices Revision/Logger2/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/Exercices Revision/Logger2/application.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,24 +13,15 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exercices Revision/Logger2/Logger_Step02_Start.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3195">
-              <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
-              <folding>
-                <element signature="e#6#128#0#PHP" expanded="true" />
-                <element signature="e#3090#3593#0#PHP" />
-                <element signature="e#3879#4188#0#PHP" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Exercices Revision/Logger3/application.log">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercices Revision/Logger2/application.log">
+        <entry file="file://$PROJECT_DIR$/Exercices Revision/Logger3/Logger_Step03.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="243">
+              <caret line="105" column="21" lean-forward="true" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -45,6 +36,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nbOfCharInMsg</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -53,6 +49,7 @@
       <list>
         <option value="$PROJECT_DIR$/Exercices Revision/Logger2/application.log" />
         <option value="$PROJECT_DIR$/Exercices Revision/Logger2/Logger_Step02_Start.php" />
+        <option value="$PROJECT_DIR$/Exercices Revision/Logger3/Logger_Step03.php" />
       </list>
     </option>
   </component>
@@ -69,10 +66,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="421" />
-    <option name="y" value="190" />
-    <option name="width" value="976" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="1039" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1U6pXD7vwutxADZaOcfLHUpto6P" />
   <component name="ProjectView">
@@ -97,13 +93,7 @@
               <item name="ICT-133-AGR-PHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="ICT-133-AGR-PHP" type="462c0819:PsiDirectoryNode" />
               <item name="Exercices Revision" type="462c0819:PsiDirectoryNode" />
-              <item name="DemoArray" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ICT-133-AGR-PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ICT-133-AGR-PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercices Revision" type="462c0819:PsiDirectoryNode" />
-              <item name="Logger2" type="462c0819:PsiDirectoryNode" />
+              <item name="Logger3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,14 +112,14 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\DemoArray" />
+      <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\Logger" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\Ressources" />
       <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\strings_arrays" />
       <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\DemoArray" />
-      <recent name="C:\GitHub\ICT-133-AGR-PHP\Exercices Revision\Logger" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -189,12 +179,12 @@
       <workItem from="1575293835434" duration="1582000" />
       <workItem from="1575295436986" duration="2317000" />
       <workItem from="1575298052750" duration="646000" />
-      <workItem from="1575575327842" duration="6134000" />
+      <workItem from="1575575327842" duration="8052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6134000" />
+    <option name="totallyTimeSpent" value="8052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -276,24 +266,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercices Revision/Logger2/application.log">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Logger_Step03.php.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="135">
+          <caret line="5" column="14" lean-forward="true" selection-end-line="178" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Exercices Revision/Logger2/Logger_Step02_Start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3195">
+        <state relative-caret-position="3500">
           <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
           <folding>
             <element signature="e#6#128#0#PHP" expanded="true" />
-            <element signature="e#3090#3593#0#PHP" />
-            <element signature="e#3879#4188#0#PHP" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercices Revision/Logger2/application.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercices Revision/Logger3/Logger_Step03.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="105" column="21" lean-forward="true" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercices Revision/Logger3/application.log">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
