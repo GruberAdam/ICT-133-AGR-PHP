@@ -7,6 +7,23 @@
 /*Links the css */
 echo '<link href="Calendar%20CSS.css" rel="stylesheet" type="text/css">';
 /*Create an array of the days */
+
+$year = @$_GET['year'];
+$month = @ $_GET['month'];
+
+if ($month != ""|| $year != ""){
+    echo "true";
+    echo "in";
+}else{
+    echo "false";
+    $year = (int)date("Y");
+    $month = (int)date("n");
+    echo $month;
+    echo $year;
+}
+
+echo '<br>';
+
 $dayArray = array(
     'Monday' => 'Lun',
     'Tuesday' => 'Mar',
@@ -17,24 +34,15 @@ $dayArray = array(
     'Sunday' => 'Dim',
 );
 
-$months = array('Janvier','Fevrier','Mars','Avril','Mai','Juin','Juillet','Aout','Septembre','Octobre','Nomvembre','Decembre');
+$months = array('Janvier','Fevrier','Mars','Avril','Mai','Juin','Juillet','Aout','Septembre','Octobre','Novembre','Decembre');
+
 /*Declare 2 time variables */
 $numberOfTheDay = 0;
 $numberOfTheWeek = 0;
 /* Get the day of the week (1-7) & day of the month (1-31) */
-$numberOfTheWeek = date("N").'<br>';
-$numberOfTheDay = date("j").'<br>';
+$numberOfTheWeek = date("N", mktime(0, 0, 0, date($month), 1, date($year) ));
 /* Output is string so parse it in INT */
 $numberOfTheWeekInt = (int)$numberOfTheWeek;
-$numberOfTheDayInt = (int)$numberOfTheDay;
-/* Get where the weekday (1-7) where the monthday begins (1) */
-while ($numberOfTheDayInt != 1){
-    $numberOfTheDayInt--;
-    $numberOfTheWeekInt--;
-    if ($numberOfTheWeekInt == 0){
-        $numberOfTheWeekInt = 7;
-    }
-}
 
 /* Put the base */
 echo '<h1>CSS Calendar</h1>';
@@ -44,9 +52,12 @@ echo '<ul>';
 echo '<li class="prev">&#10094;</li>';
 echo '<li class="next">&#10095;</li>';
 echo '<li>';
-echo $months[date("m")-1];
+echo $month;
+echo $months[date($month)-1];
 echo '<br>';
-echo '<span style="font-size:18px">'.date('Y').'</span>';
+echo '<span style="font-size:18px">';
+echo date($year);
+echo '</span>';
 echo '</li>';
 echo '</ul>';
 echo '</div>';
