@@ -6,23 +6,21 @@
 */
 /*Links the css */
 echo '<link href="Calendar%20CSS.css" rel="stylesheet" type="text/css">';
-/*Create an array of the days */
 
+/* Take year and month choosen */
 $year = @$_GET['year'];
-$month = @ $_GET['month'];
+$month = @$_GET['month'];
 
-if ($month != ""|| $year != ""){
-    echo "true";
-    echo "in";
-}else{
-    echo "false";
-    $year = (int)date("Y");
-    $month = (int)date("n");
-    echo $month;
-    echo $year;
+/* Test if query string is right */
+if (empty($month)||empty($year)|| $month < 0|| $month > 12){
+    /* If query string is false wrong then put current date */
+    $year = date("Y");
+    $month = date("n");
 }
 
 echo '<br>';
+
+/*Create an array of the days */
 
 $dayArray = array(
     'Monday' => 'Lun',
@@ -52,7 +50,6 @@ echo '<ul>';
 echo '<li class="prev">&#10094;</li>';
 echo '<li class="next">&#10095;</li>';
 echo '<li>';
-echo $month;
 echo $months[date($month)-1];
 echo '<br>';
 echo '<span style="font-size:18px">';
