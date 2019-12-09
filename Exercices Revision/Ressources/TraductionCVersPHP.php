@@ -1,4 +1,9 @@
 <?php
+/*  Autor : Adam Gruber
+    Date : 26.11.2019
+    Version : 1.0
+    Project : Exercice pour apprendre le language
+*/
 //Declaration des variables
 $value = 20;
 $step = 3;

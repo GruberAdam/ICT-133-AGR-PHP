@@ -1,4 +1,9 @@
 <?php
+/*  Autor : Adam Gruber
+    Date : 26.11.2019
+    Version : 1.0
+    Project : Calculator
+*/
 //Initiate var's
 $op1 = 3;
 $op2 = 7;
