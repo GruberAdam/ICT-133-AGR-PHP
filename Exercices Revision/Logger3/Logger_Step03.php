@@ -7,7 +7,7 @@
  * Title : RefreshFunction.php
  */
 const MIN_LENGHT = 10;
-const MAX_LENGHT = 31;
+const MAX_LENGHT = 20;
 //<editor-fold desc="private attributes"> //add region in phpstorm -> https://blog.jetbrains.com/phpstorm/2012/03/new-in-4-0-custom-code-folding-regions/
 $logName = "application.log";//define log file name
 $fileFullPath = setFullPath($logName);
@@ -20,7 +20,7 @@ writeMsgInFile($fileFullPath, $logHeader, true);
 
 //http://php.net/manual/en/language.types.array.php
 $testValues = array(
-    "1" => array(1,"This is an info"),
+    "1" => array(1, "This is an info"),
     "2" => array(2, "This a warning"),
     "3" => array(3, "This an error"),
     "4" => array(24, "This an unknown"),
@@ -28,14 +28,13 @@ $testValues = array(
     "6" => array(1, "This is a very long info messages")
 );
 
-foreach ($testValues as $msg)
-{
+foreach ($testValues as $msg) {
     //Checks if range is accepted
-    $accepted = checkMsgToWrite($msg[1],MIN_LENGHT,MAX_LENGHT);
+    $messageOutput = checkMsgToWrite($msg[1], MIN_LENGHT, MAX_LENGHT);
     //If its no accepted skip
-    if ($accepted) {
+    if ($messageOutput != "") {
         //here may a good place to call the function prepareMsgToWrite()...
-        $msgFormatted = prepareMsgToWrite($msg[1], $msg[0]);
+        $msgFormatted = prepareMsgToWrite($messageOutput, $msg[0]);
         writeMsgInFile($fileFullPath, $msgFormatted, false);
     }
 }
@@ -75,15 +74,14 @@ function writeMsgInFile($fileFullPath, $lineToWrite, $erase)
 
     //TODO - a good place to code ;)
     $strWriter = null;
-    if($erase){
+    if ($erase) {
         $strWriter = fopen($fileFullPath, "w");
-    }
-    else{
+    } else {
         $strWriter = fopen($fileFullPath, "a");
         $lineToWrite = $lineToWrite;
     }
 
-    fwrite($strWriter, $lineToWrite  . "\r\n");
+    fwrite($strWriter, $lineToWrite . "\r\n");
     fclose($strWriter);
 }
 
@@ -103,10 +101,15 @@ function checkMsgToWrite($msg, $minLength, $maxLength)
     */
     $numberOfCharacters = nbOfCharInMsg($msg);
     //Checks if the string is in the accepted range
-    if ($numberOfCharacters < $minLength || $numberOfCharacters > $maxLength){
-        return false;
-    }else{
-        return true;
+    if ($numberOfCharacters > $maxLength) {
+        //Cuts the message
+        $messageIfTooLong = substr($msg, 0, 19);
+        echo $messageIfTooLong;
+        return $messageIfTooLong;
+    } else if ($numberOfCharacters < $minLength) {
+        return "";
+    } else {
+        return $msg;
     }
 
     //TODO - a good place to code ;)
@@ -171,8 +174,7 @@ function convertLevelIntToDescription($levelNumber)
     http://php.net/manual/en/control-structures.switch.php
     */
     $levelDescription = "";
-    switch ($levelNumber)
-    {
+    switch ($levelNumber) {
         case 1:
             $levelDescription = "Info";
             break;
