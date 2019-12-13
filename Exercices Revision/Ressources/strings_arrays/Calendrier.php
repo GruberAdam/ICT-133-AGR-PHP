@@ -38,9 +38,11 @@ $months = array('Janvier','Fevrier','Mars','Avril','Mai','Juin','Juillet','Aout'
 $numberOfTheDay = 0;
 $numberOfTheWeek = 0;
 /* Get the day of the week (1-7) & day of the month (1-31) */
-$numberOfTheWeek = date("N", mktime(0, 0, 0, date($month), 1, date($year) ));
+$numberOfTheWeek = date("N", strtotime("$year-$month-1"));//day of the week that is the 1 of the month
+
 /* Output is string so parse it in INT */
 $numberOfTheWeekInt = (int)$numberOfTheWeek;
+
 
 /* Put the base */
 echo '<h1>CSS Calendar</h1>';
@@ -81,4 +83,30 @@ for ($i = 1; $i <= date("t");$i++){
 
 }
 echo '</ul>';
+
+/* Get next / previous , year / month */
+$previousYear = $year;
+$nextYear = $year;
+if ($month == 1){
+    $previousMonth = 12;
+    $previousYear--;
+}
+else{
+    $previousMonth = $month - 1;
+}
+
+if ($month == 12){
+    $nextMonth = 1;
+    $nextYear++;
+}
+else{
+    $nextMonth = $month + 1;
+}
+
+/*Buttons */
+echo "<button><a href=Calendrier.php?month=$previousMonth&year=$previousYear>Previous Months</a></button>";
+echo "<button><a href=Calendrier.php?month=$nextMonth&year=$nextYear>Next Months</a></button>";
+
+
+?>
 
