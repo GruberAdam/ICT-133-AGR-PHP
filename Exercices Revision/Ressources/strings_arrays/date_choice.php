@@ -4,16 +4,14 @@
     Version : 1.0 
     Project : Choose a date
 */
-$year = 2000;
-$month = 1;
-for ($i = 0; $i < 50;$i++){
-    echo "<a href=Calendrier.php?year=$year&month=$month>";
-    echo $year;
-    echo "/";
-    echo $month.'</a>'.'<br>';
-    if ($month == 12){
-        $month = 0;
-        }
-    $year++;
-    $month++;
-}
+?>
+<form method="get" action="Calendrier.php">
+    <label for="month">Veuillez entrer un mois ex "Janvier</label>
+    <input type="text" id="month" name="month">
+    <br>
+    <label for="year">Veuillez entrer une année</label>
+    <input id="year" type="text" name="year">
+    <br>
+    <input type="submit">
+</form>
+
