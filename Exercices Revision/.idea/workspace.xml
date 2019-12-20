@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="552669c4-3951-41d1-8980-aaba2ebf31ec" name="Default Changelist" comment="" />
+    <list default="true" id="325cf13f-f96d-4946-8532-8c82eb5aa059" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +17,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
-  <component name="ProjectId" id="1V4Ht2S2zB2WNjrBVSPb2kKTxKk" />
+  <component name="ProjectId" id="1VC5VF7BzUkexhl0Quu8w5QZFEx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercices Revision" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
@@ -37,7 +37,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="WebServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="7070">
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" port="8099">
       <method v="2" />
     </configuration>
   </component>
@@ -46,13 +46,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="552669c4-3951-41d1-8980-aaba2ebf31ec" name="Default Changelist" comment="" />
-      <created>1576505657847</created>
+      <changelist id="325cf13f-f96d-4946-8532-8c82eb5aa059" name="Default Changelist" comment="" />
+      <created>1576744257041</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576505657847</updated>
-      <workItem from="1576505659132" duration="2823000" />
-      <workItem from="1576744237564" duration="631000" />
+      <updated>1576744257041</updated>
+      <workItem from="1576744258146" duration="3897000" />
+      <workItem from="1576829876061" duration="7179000" />
     </task>
     <servers />
   </component>

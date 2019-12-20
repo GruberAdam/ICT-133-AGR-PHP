@@ -6,7 +6,7 @@
 */
 ?>
 <form method="get" action="Calendrier.php">
-    <label for="month">Veuillez entrer un mois ex "Janvier</label>
+    <label for="month">Veuillez entrer un mois ex "Janvier"</label>
     <input type="text" id="month" name="month">
     <br>
     <label for="year">Veuillez entrer une année</label>
@@ -14,4 +14,3 @@
     <br>
     <input type="submit">
 </form>
-
