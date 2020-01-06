@@ -21,7 +21,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Snow" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
@@ -52,7 +52,8 @@
       <option name="presentableId" value="Default" />
       <updated>1576744257041</updated>
       <workItem from="1576744258146" duration="3897000" />
-      <workItem from="1576829876061" duration="7179000" />
+      <workItem from="1576829876061" duration="8525000" />
+      <workItem from="1578295784082" duration="43000" />
     </task>
     <servers />
   </component>

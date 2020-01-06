@@ -80,7 +80,6 @@ $numberOfTheWeek = date("N", strtotime("$year-$month-1"));//day of the week that
 
 /* Output is string so parse it in INT */
 $numberOfTheWeekInt = (int)$numberOfTheWeek;
-echo $numberOfTheWeekInt;
 
 /* Put the base */
 echo '<h1>CSS Calendar</h1>';

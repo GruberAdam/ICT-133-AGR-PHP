@@ -22,7 +22,8 @@
     <link href="view/content/scripts/icons/social/stylesheets/social_foundicons.css" media="screen" rel="stylesheet"
           type="text/css"/>
     <!--[if lt IE 8]>
-    <link href="view/content/scripts/icons/general/stylesheets/general_foundicons_ie7.css" media="screen" rel="stylesheet"
+    <link href="view/content/scripts/icons/general/stylesheets/general_foundicons_ie7.css" media="screen"
+          rel="stylesheet"
           type="text/css"/>
     <link href="view/content/scripts/icons/social/stylesheets/social_foundicons_ie7.css" media="screen" rel="stylesheet"
           type="text/css"/>
@@ -44,6 +45,7 @@
 
     <link href="view/content/styles/custom.css" rel="stylesheet" type="text/css"/>
 </head>
+
 <body id="pageBody">
 
 <div id="divBoxed" class="container">
@@ -68,28 +70,16 @@
                         </button>
                         <div class="nav-collapse collapse">
                             <ul class="nav nav-pills ddmenu">
-                                <li class="active"><a href="index.html">Home</a></li>
-                                <li><a href="view/content/about.html">About</a></li>
-                                <li class="dropdown">
-                                    <a href="view/content/page.html" class="dropdown-toggle">Page <b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="view/content/full.html">Full Page</a></li>
-                                        <li><a href="view/content/2-column.html">Two Column</a></li>
-                                        <li><a href="view/content/3-column.html">Three Column</a></li>
-                                        <li><a href="../documentation/index.html">Documentation</a></li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle">Dropdown Item &nbsp;&raquo;</a>
-                                            <ul class="dropdown-menu sub-menu">
-                                                <li><a href="#">Dropdown Item</a></li>
-                                                <li><a href="#">Dropdown Item</a></li>
-                                                <li><a href="#">Dropdown Item</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="content/services.html">Services</a></li>
-                                <li><a href="content/portfolio.html">Portfolio</a></li>
-                                <li><a href="content/contact.php">Contact</a></li>
+                                <li <?php if (($_GET['action'] == "home") || !isset($_GET['action'])) : ?>
+                                    class="active"
+                                <?php endif ?>>
+                                    <a href="index.php?action=home">Accueil</a></li>
+
+                                <li <?php if (($_GET['action'] == 'login') || !isset($_GET['action'])) : ?>
+                                    class="active"
+                                <?php endif ?>>
+                                    <a href="index.php?action=login">Login</a></li>
+                                <li><a href="content/services.html">Produits</a></li>
                             </ul>
                         </div>
                     </div>
@@ -97,34 +87,8 @@
 
             </div>
         </div>
+        <!-- Slider -->
 
-        <div class="row-fluid">
-            <div class="span12">
-
-                <div id="headerSeparator"></div>
-
-                <div class="camera_full_width">
-                    <div id="camera_wrap">
-                        <div data-src="view/content/slider-images/4.jpg">
-                            <div class="camera_caption fadeFromBottom cap1">Les derniers modèles toujours à
-                                disposition.
-                            </div>
-                        </div>
-                        <div data-src="view/content/slider-images/1.jpg">
-                            <div class="camera_caption fadeFromBottom cap2">Découvrez des paysages fabuleux avec des
-                                sensations.
-                            </div>
-                        </div>
-                        <div data-src="view/content/slider-images/2.jpg"></div>
-                    </div>
-                    <br style="clear:both"/>
-                    <div style="margin-bottom:40px"></div>
-                </div>
-
-                <div id="headerSeparator2"></div>
-
-            </div>
-        </div>
     </div>
 
     <div class="contentArea">
@@ -134,7 +98,7 @@
 
             <div class="row-fluid">
                 <!--Edit Main Content Area here-->
-                    <?= $content?>
+                <?= $content ?>
                 <!--End Main Content-->
             </div>
 

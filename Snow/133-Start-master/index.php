@@ -7,19 +7,21 @@
 
 require "controler/controler.php";
 
-if (isset($_GET["action"])){
+if (isset($_GET["action"])) {
     $action = $_GET["action"];
-    switch ($action){
+    switch ($action) {
         case 'home':
             home();
             break;
         case 'contact' :
             contact();
             break;
+        case 'login':
+            login();
+            break;
         default :
             home();
     }
-}
-else{
+} else {
     home();
 }
