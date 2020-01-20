@@ -11,10 +11,10 @@ ob_start(); // Ouvre la memoire tampon
 $titre = "Rent A Snow - Acceuil"
 ?>
     <form action="index.php?action=login" method="post">
-        <label for="user_name">Nom d'utilisateur</label>
-        <input type="text" name="user_name" id="user_name" required>
-        <label for="password">Mot de passe</label>
-        <input type="password" name="password" id="password" required>
+        <label for="user_email">E-mail</label>
+        <input type="em ail" name="user_email" id="user_email" required>
+        <label for="user_password">Mot de passe</label>
+        <input type="password" name="user_password" id="user_password" required>
         <br>
         <input type="submit">
     </form>

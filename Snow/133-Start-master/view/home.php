@@ -1,9 +1,11 @@
 <?php
+
 /*  Autor : Adam Gruber
     Date : Insert date
     Version : 1.0 
     Project : Insert Project Name
 */
+
 $_GET["action"] = "home";
 // tampon de flux stocké en mémoire
 ob_start(); // Ouvre la memoire tampon

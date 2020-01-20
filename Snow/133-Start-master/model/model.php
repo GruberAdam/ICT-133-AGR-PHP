@@ -5,6 +5,7 @@
     Project : Insert Project Name
 */
 
+//Checks if password is right
 function checkLogin($username, $password){
     if ($password == 1234){
         return true;

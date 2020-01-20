@@ -16,6 +16,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
   <component name="ProjectId" id="1V4Ht2S2zB2WNjrBVSPb2kKTxKk" />
@@ -23,7 +29,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.stylesheets" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,7 +64,10 @@
       <workItem from="1578295815399" duration="4310000" />
       <workItem from="1578314909252" duration="459000" />
       <workItem from="1578315381705" duration="306000" />
-      <workItem from="1578315698578" duration="6856000" />
+      <workItem from="1578315698578" duration="7052000" />
+      <workItem from="1578555731833" duration="1299000" />
+      <workItem from="1578900170126" duration="5394000" />
+      <workItem from="1578917620204" duration="8428000" />
     </task>
     <servers />
   </component>
@@ -76,5 +86,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

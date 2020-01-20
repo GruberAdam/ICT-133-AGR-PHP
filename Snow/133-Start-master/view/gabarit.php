@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE HTML>
+
 <html>
 <head>
     <meta charset="utf-8">
@@ -74,11 +75,19 @@
                                     class="active"
                                 <?php endif ?>>
                                     <a href="index.php?action=home">Accueil</a></li>
+                                <!-- SI LA VARIABLE SESSION N'EST PAS SETTED ON MET LOG IN -->
 
                                 <li <?php if (($_GET['action'] == 'login') || !isset($_GET['action'])) : ?>
                                     class="active"
                                 <?php endif ?>>
-                                    <a href="index.php?action=login">Login</a></li>
+                                    <a href="index.php?action=<?php if (isset($_SESSION['mail'])) : ?>logout<?php else: ?>login<?php endif?>">
+                                        <?php if (!isset($_SESSION['mail'])) : ?>
+                                        Login
+                                        <?php endif ?>
+                                        <?php if (isset($_SESSION['mail'])) : ?>
+                                        Log out
+                                        <?php endif ?>
+                                    </a></li>
                                 <li><a href="content/services.html">Produits</a></li>
                             </ul>
                         </div>
@@ -90,11 +99,17 @@
         <!-- Slider -->
 
     </div>
-
+    <?php
+    //Affiche l'email de l'utilisateur
+        if (isset($_SESSION['mail'])){
+            echo "<p align='right'; style='font-size: 25px; margin-right: 10px; color: lightcoral'>";
+            echo "E-mail : ".$_SESSION['mail'];
+            echo "</p>";
+        }
+    ?>
     <div class="contentArea">
 
         <div class="divPanel notop page-content">
-
 
             <div class="row-fluid">
                 <!--Edit Main Content Area here-->

@@ -1,31 +1,37 @@
 <?php
 /*  Autor : Adam Gruber
     Date : 16.12.2019
-    Version : 1.0 
+    Version : 1.0
     Project : Insert Project Name
 */
-/**
- * Function to redirect the user to the home page
- * (depending the action received  by the index)
- */
+session_start();
+
+//This function redirects on home.php
 function home(){
     $_GET["action"] = "home";
     require "view/home.php";
 }
+
+/**
+ *This function will test if the password and username are empty
+ * If it isn't it will check it in an other function
+ */
 function login(){
     //Takes the username / password
-    $user_name = @$_POST['user_name'];
-    $password = @$_POST['password'];
+    $email = @$_POST['user_email'];
+    $password = @$_POST['user_password'];
     //Checks if the username or password is empty
-    if ($user_name == "" || $password == ""){
+    if ($email == "" || $password == ""){
         require "view/login.php";
     }
     else{
         require "model/model.php";
         //Checks if the password is true
-        $connected = checkLogin($user_name, $password);
+        $connected = checkLogin($email, $password);
         if ($connected){
-            require "view/home.php";
+            //Redirects on home and creates a session variable
+            $_SESSION['mail'] = $email;
+            home();
         }
         else{
             require "view/login.php";
