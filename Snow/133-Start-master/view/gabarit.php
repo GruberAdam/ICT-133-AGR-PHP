@@ -71,13 +71,15 @@
                         </button>
                         <div class="nav-collapse collapse">
                             <ul class="nav nav-pills ddmenu">
+
+                                <!-- HOME BUTTON -->
                                 <li <?php if (($_GET['action'] == "home") || !isset($_GET['action'])) : ?>
                                     class="active"
                                 <?php endif ?>>
                                     <a href="index.php?action=home">Accueil</a></li>
-                                <!-- SI LA VARIABLE SESSION N'EST PAS SETTED ON MET LOG IN -->
 
-                                <li <?php if (($_GET['action'] == 'login') || !isset($_GET['action'])) : ?>
+                                <!-- LOGIN BUTTON-->
+                                <li <?php if (($_GET['action'] == 'login') || ($_GET['action'] == 'register')) : ?>
                                     class="active"
                                 <?php endif ?>>
                                     <a href="index.php?action=<?php if (isset($_SESSION['mail'])) : ?>logout<?php else: ?>login<?php endif?>">
@@ -88,6 +90,8 @@
                                         Log out
                                         <?php endif ?>
                                     </a></li>
+
+                                <!-- PRODUCT BUTTON -->
                                 <li><a href="content/services.html">Produits</a></li>
                             </ul>
                         </div>

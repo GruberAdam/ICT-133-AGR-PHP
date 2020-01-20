@@ -13,6 +13,13 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -30,7 +37,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.stylesheets" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,6 +75,14 @@
       <workItem from="1578555731833" duration="1299000" />
       <workItem from="1578900170126" duration="5394000" />
       <workItem from="1578917620204" duration="8428000" />
+      <workItem from="1579251597738" duration="95000" />
+      <workItem from="1579503785311" duration="1307000" />
+      <workItem from="1579506739098" duration="3316000" />
+      <workItem from="1579522342347" duration="6060000" />
+      <workItem from="1579528535838" duration="1971000" />
+      <workItem from="1579530735006" duration="249000" />
+      <workItem from="1579530999066" duration="296000" />
+      <workItem from="1579531584476" duration="245000" />
     </task>
     <servers />
   </component>

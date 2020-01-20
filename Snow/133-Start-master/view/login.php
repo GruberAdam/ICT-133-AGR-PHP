@@ -18,6 +18,7 @@ $titre = "Rent A Snow - Acceuil"
         <br>
         <input type="submit">
     </form>
+    <button><a href="index.php?action=register">Create an account</a></button>
 
 <?php
 $content = ob_get_clean();

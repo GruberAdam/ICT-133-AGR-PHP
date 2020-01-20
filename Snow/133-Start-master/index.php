@@ -4,7 +4,6 @@
     Version : 1.0 
     Project : Insert Project Name
 */
-
 require "controler/controler.php";
 
 if (isset($_GET["action"])) {
@@ -21,6 +20,9 @@ if (isset($_GET["action"])) {
             break;
         case 'logout' :
             logout();
+            break;
+        case 'register':
+            register();
             break;
         default :
             home();
