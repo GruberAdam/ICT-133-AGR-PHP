@@ -1,0 +1,22 @@
+[
+  {
+    "firstname": "Adam",
+    "email": "adamgruber@bluewin.ch",
+    "password": "1234"
+  },
+  {
+    "firstname": "Zazi",
+    "email": "zazi@bluewin.ch",
+    "password": "123"
+  },
+  {
+    "firstname": "test",
+    "email": "test@bluewin.ch",
+    "password": "12"
+  },
+  {
+    "firstname": "Hola",
+    "email": "hola@bluewin.ch",
+    "password": "123"
+  }
+]

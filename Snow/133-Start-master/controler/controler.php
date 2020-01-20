@@ -29,6 +29,7 @@ function login(){
         require "model/model.php";
         //Checks if the password is true
         $connected = checkLogin($email, $password);
+
         if ($connected){
             //Redirects on home and creates a session variable
             $_SESSION['mail'] = $email;
@@ -37,6 +38,7 @@ function login(){
         else{
             require "view/login.php";
         }
+
     }
 }
 
@@ -65,6 +67,7 @@ function register(){
     else{
         require "model/model.php";
         registerToJson($firstName, $email, $password);
+        require "view/login.php";
     }
 
 }

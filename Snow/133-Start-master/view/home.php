@@ -5,7 +5,6 @@
     Version : 1.0 
     Project : Insert Project Name
 */
-echo 'test';
 $_GET["action"] = "home";
 // tampon de flux stocké en mémoire
 ob_start(); // Ouvre la memoire tampon

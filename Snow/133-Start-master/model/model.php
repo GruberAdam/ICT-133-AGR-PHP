@@ -5,14 +5,20 @@
     Project : Insert Project Name
 */
 
-//Checks if password is right
+//Checks email and password with the json file
 function checkLogin($email, $password)
 {
-    if ($password == 1234) {
-        return true;
-    } else {
-        return false;
+    //Get the user in the json file
+    $userArray = file_get_contents("model/accounts.json");
+    $userArray = json_decode($userArray, true);
+
+    //Checks if the email exists
+    foreach ($userArray as $user) {
+        if ($user['email'] == $email && $user['password'] == $password){
+            return true;
+        }
     }
+    return false;
 }
 
 /**
