@@ -2,7 +2,6 @@
 /*  Autor : Adam Gruber
     Date : 16.12.2019
     Version : 1.0
-    Project : Insert Project Name
 */
 session_start();
 

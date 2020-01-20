@@ -6,6 +6,8 @@
 */
 require "controler/controler.php";
 
+
+/* This will redirect on the controler based on the action */
 if (isset($_GET["action"])) {
     $action = $_GET["action"];
     switch ($action) {
