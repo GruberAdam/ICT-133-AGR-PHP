@@ -80,6 +80,7 @@ $numberOfTheWeek = date("N", strtotime("$year-$month-1"));//day of the week that
 
 /* Output is string so parse it in INT */
 $numberOfTheWeekInt = (int)$numberOfTheWeek;
+echo $numberOfTheWeekInt;
 
 /* Put the base */
 echo '<h1>CSS Calendar</h1>';
@@ -113,24 +114,25 @@ $numberOfDayInMonth = cal_days_in_month(CAL_GREGORIAN, $month, $year);
 
 /*Display the day of the months */
 echo '<ul class="days">';
-for ($i = 1; $i <= 35; $i++) {
+for ($i = 1; $i <= 34 - $numberOfTheWeekInt; $i++) {
 
     /*Checks if the first monthday needs to adapt on the weekday (1-7)*/
     if ($numberOfTheWeekInt != 1) {
         for ($n = 0; $n < $numberOfTheWeekInt - 1; $n++) {
-            echo "<li style='color: rgba(162,162,162,0.72)'>$numberOfDayLastMonthsToDisplay</li>";
+            echo "<li style='color: rgba(162,162,162,0.72)' id='$i'>$numberOfDayLastMonthsToDisplay</li>";
             $numberOfDayLastMonthsRemaining++;
             $numberOfDayLastMonthsToDisplay++;
-            $i = $n + 1;
         }
         $numberOfTheWeekInt = 1;
+        $i = $numberOfTheWeekInt - 1;
     } else {
+
         if ($numberOfDayInMonth <= $i -1){
-            echo "<li style='color: rgba(162,162,162,0.72)'>". $counter . "</li>";
+            echo "<li style='color: rgba(162,162,162,0.72)' id='$i'>". $counter . "</li>";
             $counter++;
         }
         else{
-            echo '<li>' . $i . '</li>';
+            echo '<li id="$i">' . $i . '</li>';
         }
 
     }
@@ -146,10 +148,7 @@ echo '</ul>';
 /*Buttons */
 echo "<button><a href=Calendrier.php?month=$previousMonth&year=$previousYear>Previous Months</a></button>";
 echo "<button><a href=Calendrier.php?month=$nextMonth&year=$nextYear>Next Months</a></button>";
-echo "<br><br>";
 echo "<button><a href=date_choice.php>Choisir une date</a></button>";
-echo "<br><br>";
-echo "<button><a href=Calendrier.php>Donner un avis </a></button>";
 
 
 ?>
