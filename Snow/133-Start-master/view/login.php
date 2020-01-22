@@ -5,7 +5,6 @@
     Project : Insert Project Name
 */
 
-$_GET["action"] = "login";
 // tampon de flux stocké en mémoire
 ob_start(); // Ouvre la memoire tampon
 $titre = "Rent A Snow - Acceuil"

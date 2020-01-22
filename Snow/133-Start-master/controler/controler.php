@@ -63,10 +63,13 @@ function register(){
     if (!isset($firstName) || !isset($email) || !isset($password)){
         require "view/register.php";
     }
-    else{
+    else {
         require "model/model.php";
         registerToJson($firstName, $email, $password);
         require "view/login.php";
     }
+}
 
+function products(){
+    require "view/products.php";
 }

@@ -92,7 +92,7 @@
                                     </a></li>
 
                                 <!-- PRODUCT BUTTON -->
-                                <li><a href="content/services.html">Produits</a></li>
+                                <li><a href="index.php?action=products">Produits</a></li>
                             </ul>
                         </div>
                     </div>
