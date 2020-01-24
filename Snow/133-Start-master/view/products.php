@@ -10,10 +10,6 @@ ob_start()
 
 ?>
 
-<p>Hi</p>
-
-
-
 <?php
 
 $content = ob_get_clean();

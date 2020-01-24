@@ -4,9 +4,9 @@
     <list default="true" id="552669c4-3951-41d1-8980-aaba2ebf31ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/133-Start-master/controler/controler.php" beforeDir="false" afterPath="$PROJECT_DIR$/133-Start-master/controler/controler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/133-Start-master/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/133-Start-master/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/133-Start-master/view/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/133-Start-master/view/gabarit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/133-Start-master/view/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/133-Start-master/view/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/133-Start-master/model/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/133-Start-master/model/model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/133-Start-master/model/snowboards.json" beforeDir="false" afterPath="$PROJECT_DIR$/133-Start-master/model/snowboards.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/133-Start-master/view/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/133-Start-master/view/products.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,26 +19,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/133-Start-master/controler/controler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="72" column="17" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="17" />
+            <state relative-caret-position="467">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/133-Start-master/view/products.php">
+        <entry file="file://$PROJECT_DIR$/133-Start-master/view/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="120">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/133-Start-master/view/login.php">
+        <entry file="file://$PROJECT_DIR$/133-Start-master/model/model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="1392">
+              <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -46,20 +46,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/133-Start-master/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/133-Start-master/view/gabarit.php">
+        <entry file="file://$PROJECT_DIR$/133-Start-master/view/products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="94" column="70" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/133-Start-master/model/snowboards.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -79,12 +85,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/133-Start-master/model/model.php" />
         <option value="$PROJECT_DIR$/133-Start-master/view/gabarit.php" />
         <option value="$PROJECT_DIR$/133-Start-master/view/login.php" />
-        <option value="$PROJECT_DIR$/133-Start-master/view/products.php" />
-        <option value="$PROJECT_DIR$/133-Start-master/controler/controler.php" />
         <option value="$PROJECT_DIR$/133-Start-master/index.php" />
+        <option value="$PROJECT_DIR$/133-Start-master/model/snowboards.json" />
+        <option value="$PROJECT_DIR$/133-Start-master/view/products.php" />
+        <option value="$PROJECT_DIR$/133-Start-master/model/model.php" />
+        <option value="$PROJECT_DIR$/133-Start-master/controler/controler.php" />
       </list>
     </option>
   </component>
@@ -96,8 +103,9 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="578" />
+    <option name="y" value="87" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -131,6 +139,12 @@
               <item name="Snow" type="b2602c69:ProjectViewProjectNode" />
               <item name="Snow" type="462c0819:PsiDirectoryNode" />
               <item name="133-Start-master" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Snow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Snow" type="462c0819:PsiDirectoryNode" />
+              <item name="133-Start-master" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -141,7 +155,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercices Revision" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
@@ -190,23 +204,26 @@
       <workItem from="1579530999066" duration="296000" />
       <workItem from="1579531584476" duration="2636000" />
       <workItem from="1579546642034" duration="3670000" />
-      <workItem from="1579715381521" duration="3181000" />
+      <workItem from="1579715381521" duration="5677000" />
+      <workItem from="1579730244437" duration="160000" />
+      <workItem from="1579730419044" duration="675000" />
+      <workItem from="1579799830569" duration="1618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6851000" />
+    <option name="totallyTimeSpent" value="11800000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="670" y="437" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15618336" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33041576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.049837485" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05032823" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -298,20 +315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/133-Start-master/model/model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/133-Start-master/model/accounts.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/133-Start-master/view/gabarit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -329,24 +332,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/view/content/images/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/view/content/images/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/view/content/images/css3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/view/content/images/2048.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/view/content/images/500px-33918005.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/view/content/images/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/view/content/images/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/view/content/images/building.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/view/content/images/windmill.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/view/content/images/HTML5_Styling_512.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/view/content/images/HTML5_Connectivity_512.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/view/content/images/HTML5_1Color_Black.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/model/accounts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/model/model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/133-Start-master/view/products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="144">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/model/snowboards.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133-Start-master/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/133-Start-master/controler/controler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="72" column="17" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="17" />
+        <state relative-caret-position="467">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/133-Start-master/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>

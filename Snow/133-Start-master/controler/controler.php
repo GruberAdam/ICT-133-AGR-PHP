@@ -72,4 +72,6 @@ function register(){
 
 function products(){
     require "view/products.php";
+    require "view/model.php";
+    displaySnows();
 }

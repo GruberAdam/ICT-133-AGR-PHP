@@ -58,3 +58,7 @@ function registerToJson($firstName, $email, $password)
         file_put_contents($file, $dataArray);
     }
 }
+
+function displaySnows(){
+    echo "test";
+}
