@@ -58,7 +58,13 @@ function registerToJson($firstName, $email, $password)
         file_put_contents($file, $dataArray);
     }
 }
+/*
+    This function will return a json file decoded
+    The argument input is the location of the json file
+*/
+function jsonDecode($url){
+    $temp_var = file_get_contents($url);
+    $decoded_return = json_decode($temp_var, true);
 
-function displaySnows(){
-    echo "test";
+    return $decoded_return;
 }

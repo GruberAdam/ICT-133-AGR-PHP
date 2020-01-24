@@ -1,14 +1,11 @@
 [
   {
-    "snows": [
-      {
-        "id": 0,
-        "model": "Gucci",
-        "size": "180",
-        "price": "500",
-        "available": true,
-        "img" : "view/content/images/snowboard_1.png"
-      }
-    ]
+    "id": 0,
+    "category" : "snowboard",
+    "model": "Gucci",
+    "size": "180",
+    "price": "500",
+    "available": true,
+    "img": "view\/content\/images\/snowboard_1.png"
   }
 ]
