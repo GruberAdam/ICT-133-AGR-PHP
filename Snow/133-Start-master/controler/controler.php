@@ -70,6 +70,7 @@ function register(){
     }
 }
 
+/* Redirect the user to the product page */
 function products(){
     require "view/products.php";
 }

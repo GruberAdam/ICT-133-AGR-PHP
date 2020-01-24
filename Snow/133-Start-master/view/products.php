@@ -1,10 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Akame
- * Date: 22/01/2020
- * Time: 20:56
- */
+/*  Autor : Adam Gruber
+    Date : 25/01/2020
+    Version : 1.0
+*/
 
 ob_start()
 ?>

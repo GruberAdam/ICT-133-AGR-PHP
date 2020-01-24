@@ -1,8 +1,7 @@
 <?php
-/*  Author : Adam Gruber
-    Date : 16.12.2019
-    Version : 1.0 
-    Project : Insert Project Name
+/*  Autor : Adam Gruber
+    Date : 25/01/2020
+    Version : 1.0
 */
 require "controler/controler.php";
 

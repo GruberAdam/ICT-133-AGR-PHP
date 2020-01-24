@@ -1,8 +1,7 @@
 <?php
 /*  Autor : Adam Gruber
-    Date : Insert date
-    Version : 1.0 
-    Project : Insert Project Name
+    Date : 25/01/2020
+    Version : 1.0
 */
 
 $_GET["action"] = "register";
