@@ -485,6 +485,12 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'So
     margin-left: auto;
     margin-right: auto;
 }
+.snowboard_text{
+    font-size: 25px;
+    width: 600px;
+    height: 50px;
+    padding-left: 50px;
+}
 
 
 

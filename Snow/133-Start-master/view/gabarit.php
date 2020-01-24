@@ -92,7 +92,10 @@
                                     </a></li>
 
                                 <!-- PRODUCT BUTTON -->
-                                <li><a href="index.php?action=products">Produits</a></li>
+                                <li <?php if (($_GET['action'] == "products")) : ?>
+                                        class="active"
+                                <?php endif ?>>
+                                    <a href="index.php?action=products">Produits</a></li>
                             </ul>
                         </div>
                     </div>
